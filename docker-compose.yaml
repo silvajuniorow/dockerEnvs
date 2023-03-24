@@ -2,7 +2,7 @@ version: '3.8'
 services:
   app:
     image: node:18.15 #LTS
-    working_dir: /node/src/app
+    working_dir: /app
     volumes:
       - .:/node/src/app
     ports:
